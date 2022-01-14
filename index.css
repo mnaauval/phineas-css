@@ -1,0 +1,246 @@
+body {
+  background-color: #1e1b38;
+}
+
+.container {
+  position: absolute;
+  top: 40%;
+  left: 38%;
+}
+
+.header {
+  position: absolute;
+  top: -200px;
+  left: 30px;
+}
+
+.header h4 {
+  color: white;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.5rem;
+}
+
+.head {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-top: 200px solid #ecbcb4;
+  border-right: 160px solid transparent;
+  border-left: 160px solid transparent;
+  border-top-left-radius: 20px;
+  transform: rotate(30deg);
+}
+
+.head::before {
+  content: "";
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  border: solid 5px;
+  border-color: transparent transparent #a1665e transparent;
+  border-radius: 50%/20px;
+  bottom: 100px;
+  left: -30px;
+}
+
+.head::after {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 35px;
+  background: #ecbcb4;
+  border: 2px solid #a1665e;
+  border-right: none;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  transform: rotate(-37deg);
+  left: -130px;
+  bottom: 110px;
+}
+
+.eye {
+  position: absolute;
+  height: 70px;
+  width: 80px;
+  background: white;
+  border-radius: 50%;
+  border: 2px solid black;
+  transform: rotate(30deg);
+  left: 150px;
+  top: -45px;
+}
+
+.eye::before {
+  content: "";
+  position: absolute;
+  height: 22px;
+  width: 26px;
+  background: #1d1b38;
+  border-radius: 50%;
+  top: 28px;
+  left: 20px;
+}
+
+.eye::after {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 10px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: -80px 20px 0 -1px #a1665e, -55px 25px 0 -1px #a1665e, -50px 45px 0 -1px #a1665e;
+  top: 35px;
+  left: 24px;
+}
+
+.eye1 {
+  position: absolute;
+  height: 70px;
+  width: 80px;
+  background: white;
+  border-radius: 50%;
+  border: 2px solid black;
+  transform: rotate(30deg);
+  left: 200px;
+  top: -35px;
+  z-index: -1;
+}
+
+.eye1::before {
+  content: "";
+  position: absolute;
+  height: 22px;
+  width: 26px;
+  background: #1d1b38;
+  border-radius: 50%;
+  top: 28px;
+  left: 30px;
+}
+
+.eye1::after {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 10px;
+  background: white;
+  border-radius: 50%;
+  top: 35px;
+  left: 33px;
+}
+
+.hair {
+  z-index: -1;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+
+.hair > div:nth-child(1) {
+  position: absolute;
+  background: transparent;
+  height: 30px;
+  width: 80px;
+  border-top: 20px solid red;
+  border-radius: 30px 70px 0 0;
+  transform: rotate(-7deg);
+  bottom: 30px;
+  left: 75px;
+}
+
+.hair > div:nth-child(2) {
+  position: absolute;
+  background: transparent;
+  height: 30px;
+  width: 80px;
+  border-top: 20px solid red;
+  border-radius: 30px 70px 0 0;
+  transform: rotate(-35deg);
+  bottom: 50px;
+  left: 75px;
+}
+
+.hair > div:nth-child(3) {
+  position: absolute;
+  background: transparent;
+  height: 30px;
+  width: 80px;
+  border-top: 20px solid red;
+  border-radius: 20px 70px 0 0;
+  transform: rotate(-70deg);
+  bottom: 70px;
+  left: 65px;
+}
+
+.hair > div:nth-child(4) {
+  position: absolute;
+  background: transparent;
+  height: 30px;
+  width: 80px;
+  border-top: 20px solid red;
+  border-radius: 70px 20px 0 0;
+  transform: rotate(70deg);
+  bottom: 65px;
+  left: 20px;
+}
+
+.hair > div:nth-child(5) {
+  position: absolute;
+  background: transparent;
+  height: 30px;
+  width: 70px;
+  border-top: 20px solid red;
+  border-radius: 70px 30px 0 0;
+  transform: rotate(20deg);
+  bottom: 50px;
+  left: 10px;
+}
+
+.hair > div:nth-child(6) {
+  position: absolute;
+  background: transparent;
+  height: 30px;
+  width: 70px;
+  border-top: 20px solid red;
+  border-radius: 70px 30px 0 0;
+  transform: rotate(-20deg);
+  bottom: 20px;
+  left: 15px;
+}
+
+.colar {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-top: 35px solid #fe700c;
+  top: 180px;
+  left: 100px;
+  z-index: -1;
+}
+
+.colar1 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #e06839;
+  top: 180px;
+  left: 110px;
+  z-index: -1;
+}
+
+.footer {
+  position: relative;
+  top: 200px;
+  left: 40px;
+}
+
+.footer h4 {
+  color: white;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.5rem;
+}
